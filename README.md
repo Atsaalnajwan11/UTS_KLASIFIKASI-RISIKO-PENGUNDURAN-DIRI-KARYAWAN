@@ -52,3 +52,7 @@ Vidio penjelasan(youtube)
 ```bash
 
 ```
+Dataset kaggle
+```bash
+https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
+```
