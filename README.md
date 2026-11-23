@@ -43,7 +43,6 @@ Klasifikasi_Risiko_Attrition_HR_RF/
    ```
 5. Buka browser dan akses `http://127.0.0.1:5000`.
 
-## Cara Deploy Online (Render / Railway)
-1. Unggah seluruh isi folder ini ke repositori **GitHub** Anda.
-2. Hubungkan repositori GitHub ke **Render.com** (Web Service) atau **Railway.app**.
-3. Gunakan Start Command: `gunicorn app:app`.
+website dan vidio penjelasan
+Web    :
+Vidio  :
