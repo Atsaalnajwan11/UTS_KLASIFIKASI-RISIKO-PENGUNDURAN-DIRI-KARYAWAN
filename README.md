@@ -46,6 +46,8 @@ Klasifikasi_Risiko_Attrition_HR_RF/
 website dan vidio penjelasan
 ```bash
 Web    :https://prediction-attrition.vercel.app/
+```
+
 ```bash
 Vidio  :
 ```
