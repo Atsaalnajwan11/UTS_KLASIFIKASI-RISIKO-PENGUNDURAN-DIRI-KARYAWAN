@@ -50,7 +50,7 @@ https://prediction-attrition.vercel.app/
 ```
 Vidio penjelasan(youtube)
 ```bash
-
+https://youtu.be/rxNeNKVOq4o
 ```
 Dataset kaggle
 ```bash
