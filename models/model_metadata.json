@@ -1,0 +1,198 @@
+{
+  "project_title": "Klasifikasi Risiko Pengunduran Diri Karyawan Berdasarkan Data HR Menggunakan Random Forest",
+  "dataset_name": "IBM HR Analytics Employee Attrition & Performance",
+  "total_records": 1470,
+  "total_features_raw": 35,
+  "total_features_used": 30,
+  "attrition_counts": {
+    "No": 1233,
+    "Yes": 237,
+    "attrition_rate_pct": 16.12
+  },
+  "metrics": {
+    "accuracy": 77.21,
+    "precision": 38.89,
+    "recall": 74.47,
+    "f1_score": 51.09,
+    "roc_auc": 0.7905,
+    "cv_roc_auc": 0.8088,
+    "confusion_matrix": [
+      [
+        192,
+        55
+      ],
+      [
+        12,
+        35
+      ]
+    ]
+  },
+  "top_features": [
+    {
+      "feature": "OverTime",
+      "importance": 8.58
+    },
+    {
+      "feature": "MonthlyIncome",
+      "importance": 8.1
+    },
+    {
+      "feature": "Age",
+      "importance": 6.25
+    },
+    {
+      "feature": "TotalWorkingYears",
+      "importance": 6.13
+    },
+    {
+      "feature": "YearsAtCompany",
+      "importance": 5.45
+    },
+    {
+      "feature": "JobRole",
+      "importance": 4.65
+    },
+    {
+      "feature": "DailyRate",
+      "importance": 4.6
+    },
+    {
+      "feature": "YearsWithCurrManager",
+      "importance": 4.34
+    },
+    {
+      "feature": "StockOptionLevel",
+      "importance": 3.81
+    },
+    {
+      "feature": "DistanceFromHome",
+      "importance": 3.76
+    }
+  ],
+  "eda_summary": {
+    "department_attrition_pct": {
+      "Human Resources": 19.0,
+      "Research & Development": 13.8,
+      "Sales": 20.6
+    },
+    "overtime_attrition_pct": {
+      "No": 10.4,
+      "Yes": 30.5
+    },
+    "role_attrition_pct": {
+      "Healthcare Representative": 6.9,
+      "Human Resources": 23.1,
+      "Laboratory Technician": 23.9,
+      "Manager": 4.9,
+      "Manufacturing Director": 6.9,
+      "Research Director": 2.5,
+      "Research Scientist": 16.1,
+      "Sales Executive": 17.5,
+      "Sales Representative": 39.8
+    },
+    "avg_income_stay": 6832.74,
+    "avg_income_leave": 4787.09
+  },
+  "feature_columns": [
+    "Age",
+    "BusinessTravel",
+    "DailyRate",
+    "Department",
+    "DistanceFromHome",
+    "Education",
+    "EducationField",
+    "EnvironmentSatisfaction",
+    "Gender",
+    "HourlyRate",
+    "JobInvolvement",
+    "JobLevel",
+    "JobRole",
+    "JobSatisfaction",
+    "MaritalStatus",
+    "MonthlyIncome",
+    "MonthlyRate",
+    "NumCompaniesWorked",
+    "OverTime",
+    "PercentSalaryHike",
+    "PerformanceRating",
+    "RelationshipSatisfaction",
+    "StockOptionLevel",
+    "TotalWorkingYears",
+    "TrainingTimesLastYear",
+    "WorkLifeBalance",
+    "YearsAtCompany",
+    "YearsInCurrentRole",
+    "YearsSinceLastPromotion",
+    "YearsWithCurrManager"
+  ],
+  "categorical_options": {
+    "BusinessTravel": [
+      "Non-Travel",
+      "Travel_Frequently",
+      "Travel_Rarely"
+    ],
+    "Department": [
+      "Human Resources",
+      "Research & Development",
+      "Sales"
+    ],
+    "EducationField": [
+      "Human Resources",
+      "Life Sciences",
+      "Marketing",
+      "Medical",
+      "Other",
+      "Technical Degree"
+    ],
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "JobRole": [
+      "Healthcare Representative",
+      "Human Resources",
+      "Laboratory Technician",
+      "Manager",
+      "Manufacturing Director",
+      "Research Director",
+      "Research Scientist",
+      "Sales Executive",
+      "Sales Representative"
+    ],
+    "MaritalStatus": [
+      "Divorced",
+      "Married",
+      "Single"
+    ],
+    "OverTime": [
+      "No",
+      "Yes"
+    ]
+  },
+  "numerical_defaults": {
+    "Age": 36,
+    "DailyRate": 802,
+    "DistanceFromHome": 7,
+    "Education": 3,
+    "EnvironmentSatisfaction": 3,
+    "HourlyRate": 66,
+    "JobInvolvement": 3,
+    "JobLevel": 2,
+    "JobSatisfaction": 3,
+    "MonthlyIncome": 4919,
+    "MonthlyRate": 14235,
+    "NumCompaniesWorked": 2,
+    "PercentSalaryHike": 14,
+    "PerformanceRating": 3,
+    "RelationshipSatisfaction": 3,
+    "StockOptionLevel": 1,
+    "TotalWorkingYears": 10,
+    "TrainingTimesLastYear": 3,
+    "WorkLifeBalance": 3,
+    "YearsAtCompany": 5,
+    "YearsInCurrentRole": 3,
+    "YearsSinceLastPromotion": 1,
+    "YearsWithCurrManager": 3
+  },
+  "optimal_threshold": 0.3265
+}

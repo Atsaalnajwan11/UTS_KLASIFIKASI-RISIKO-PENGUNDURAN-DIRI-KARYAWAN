@@ -1,0 +1,15 @@
+notebooks/
+train_model.py
+.git/
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+env/
+venv/
+.gemini/
+Procfile
+README.md
