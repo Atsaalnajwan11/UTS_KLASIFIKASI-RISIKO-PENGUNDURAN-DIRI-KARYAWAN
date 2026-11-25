@@ -56,3 +56,7 @@ Dataset kaggle
 ```bash
 https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 ```
+Jurnal Rujukan
+```bash
+https://drive.google.com/drive/folders/177eWFggokNtbIMwiEx6IQAFjD4F85bGm?usp=sharing
+```
